@@ -31,7 +31,6 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # Adjust this value as needed
     env:
       HUGO_VERSION: 0.133.1
     steps:
